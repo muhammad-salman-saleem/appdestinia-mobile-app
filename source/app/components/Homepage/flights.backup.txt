@@ -1,0 +1,120 @@
+<View>
+													<View style={styles.maingt}>
+														<View style={[base.row, styles.it]}>
+															<View style={base.col6}>
+																<CheckBox
+																	checked={selectedIndex === 0}
+																	onPress={() => setIndex2(0)}
+																	checkedIcon="dot-circle-o"
+																	uncheckedIcon="circle-o"
+																	title='ida veila'
+																	containerStyle={{ marginLeft: vp(-4), marginTop: hp(-4) }}
+																	textStyle={{ color: '#c1c1c1', fontSize: fp(20), fontFamily: Font.regular, fontWeight: '300', marginLeft: vp(3) }}
+
+																/>
+															</View>
+															<View style={base.col6}>
+																<CheckBox
+																	checked={selectedIndex === 1}
+																	onPress={() => setIndex2(1)}
+																	checkedIcon="dot-circle-o"
+																	uncheckedIcon="circle-o"
+																	title='Solo ida'
+																	containerStyle={{ marginLeft: vp(-4), marginTop: hp(-4) }}
+																	textStyle={{ color: '#c1c1c1', fontSize: fp(20), fontFamily: Font.regular, fontWeight: '300', marginLeft: vp(3) }}
+																/>
+															</View>
+
+															<View style={base.col12}>
+																<View style={styles.inut}>
+																	<Icon
+																		name={Icons.locationsharp}
+																		type={IconsType.ionIcon}
+																		color="#c1c1c1"
+																		style={styles.icon}
+																		size={Dimension.large}
+
+																	/>
+																	<TextInput
+																		style={styles.input}
+																		placeholder="Paris-orly Francia"
+																		keyboardType="default"
+
+																	/>
+																</View>
+															</View>
+															<View style={base.col12}>
+																<View style={styles.inut}>
+																	<Icon
+																		name={Icons.locationsharp}
+																		type={IconsType.ionIcon}
+																		color="#c1c1c1"
+																		style={styles.icon}
+																		size={Dimension.large}
+
+																	/>
+																	<TextInput
+																		style={styles.input}
+																		placeholder="¿Cuál es tu destino"
+																		keyboardType="default"
+
+																	/>
+																</View>
+															</View>
+															<View style={base.col6}>
+																<View style={styles.inut}>
+																	<Icon
+																		name={Icons.date}
+																		type={IconsType.fontAwesome}
+																		color="#c1c1c1"
+																		style={styles.icon}
+																		size={Dimension.large}
+
+																	/>
+																	<TextInput
+																		style={styles.input}
+																		placeholder="28 dic."
+																		keyboardType="default"
+																	/>
+																</View>
+															</View>
+															<View style={base.col6}>
+																<View style={styles.inut}>
+																	<Icon
+																		name={Icons.date}
+																		type={IconsType.fontAwesome}
+																		color="#c1c1c1"
+																		style={styles.icon}
+																		size={Dimension.large}
+
+																	/>
+																	<TextInput
+																		style={styles.input}
+																		placeholder="31 dic."
+																		keyboardType="default"
+																	/>
+																</View>
+															</View>
+															<View style={base.col12}>
+																<View style={styles.inut}>
+																	<Icon
+																		name={Icons.usermore}
+																		type={IconsType.feather}
+																		color="#c1c1c1"
+																		style={styles.icon}
+																		size={Dimension.large}
+
+																	/>
+																	<TextInput
+																		style={styles.input}
+																		placeholder="2 adultos, 1 habitación"
+																		keyboardType="numeric"
+																	/>
+																</View>
+															</View>
+															<View style={base.col12}>
+																<Button buttonStyle={{ backgroundColor: colors.orange }} titleStyle={{ width: '100%', fontSize: fp(22), color: '#fff' }}>Buscar</Button>
+															</View>
+														</View>
+													</View>
+												</View>

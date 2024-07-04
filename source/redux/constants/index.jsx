@@ -1,0 +1,8 @@
+const ActionTypes = {
+  SET_API_TOKEN: 'SET_API_TOKEN',
+  SET_CURRENCY: 'SET_CURRENCY',
+  SET_LANGUAGE: 'SET_LANGUAGE',
+  SET_FILTER_POPUP: 'SET_FILTER_POPUP',
+};
+
+export default ActionTypes;

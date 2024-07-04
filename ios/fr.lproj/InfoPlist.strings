@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  destina
+
+  Created by Ishu Passi on 12/10/23.
+  
+*/
+
+"NSUserTrackingUsageDescription" = "Cette application utilise des identifiants d'appareil pour suivre l'attribution marketing et l'utilisation de l'application. Vos données restent confidentielles et ne sont partagées avec aucun tiers ou partenaire publicitaire.";

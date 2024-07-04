@@ -1,0 +1,24 @@
+{
+  "name": "Destina",
+  "displayName": "Destina",
+  "locales" : {
+      "fr": {
+        "NSUserTrackingUsageDescription": "This is french"
+      },
+      "en": {
+        "NSUserTrackingUsageDescription": "This is english"
+      },
+      "es": {
+        "NSUserTrackingUsageDescription": "This is spanish"
+      },
+      "it": {
+        "NSUserTrackingUsageDescription": "This is italian"
+      },
+      "pt": {
+        "NSUserTrackingUsageDescription": "This is port"
+      },
+      "de": {
+        "NSUserTrackingUsageDescription": "This is german"
+      }
+  }
+}

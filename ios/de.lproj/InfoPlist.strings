@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  destina
+
+  Created by Ishu Passi on 12/10/23.
+  
+*/
+
+"NSUserTrackingUsageDescription" = "Diese App verwendet Gerätekennungen, um die Marketingzuordnung und App-Nutzung zu verfolgen. Ihre Daten werden vertraulich behandelt und nicht an Dritte oder Werbepartner weitergegeben.";

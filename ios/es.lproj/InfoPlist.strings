@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  destina
+
+  Created by Ishu Passi on 12/10/23.
+  
+*/
+
+"NSUserTrackingUsageDescription" = "Esta aplicación utiliza identificadores de dispositivos para realizar un seguimiento de la atribución de marketing y el uso de la aplicación. Sus datos se mantienen confidenciales y no se comparten con terceros ni socios publicitarios.";
